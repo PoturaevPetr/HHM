@@ -1,0 +1,42 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div class="app">
+    <div class="container">
+      <nav class="navbar">
+        <div>
+          <img class="col-3" src="@/assets/logo.png">
+        </div>
+      </nav>
+      <div>
+        <div class="row logo">
+          <div class="col-3 offset-4">
+            <img class="w-100" src="@/assets/contacts.png">
+          </div>
+        </div>
+        <div class="row enter">
+          <div class="col-5 d-flex flex-column">
+            <div></div>
+            <label for='name'>Имя *</label>
+            <input type="text" name="name"  id='name' class="form-control">
+            <label for='email'>E-mail *</label>
+            <input type="email" name="email" id='email' class="form-control">
+          </div>
+          <div class="col-6 offset-1 d-flex flex-column">
+            <label for='comment'>Коментарий *</label>
+            <input type="comment" name="comment" id='comment' class="form-control">
+          </div>
+        </div>
+        <div class="row button">
+          <button type="button" class="btn btn-danger offset-9 col-3">Записать</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
